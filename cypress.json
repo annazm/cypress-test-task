@@ -1,0 +1,15 @@
+{
+	"baseUrl": "https://stage.flashsport.cz/",
+	"projectId": "QA Test task",
+	"integrationFolder": "./cypress/e2e",
+	"pluginsFolder": false,
+	"video": true,
+	"viewportWidth": 1600,
+	"viewportHeight": 1000,
+	"defaultCommandTimeout": 12000,
+	"retries": 2,
+	"env": {
+		"email": "tester@automation.ackee",
+		"password": "automation.tester"
+	}
+}

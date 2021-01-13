@@ -1,0 +1,20 @@
+{
+  "name": "qa-test-task",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Marek Elznic <marek.elznic@ackee.cz>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn test",
+    "test": "cypress open",
+    "test:ci": "cypress run"
+  },
+  "dependencies": {
+    "@testing-library/cypress": "5.2.1",
+    "cypress": "^3.8.3"
+  },
+  "resolutions": {
+    "cypress": "^3.8.3"
+  }
+}
