@@ -9,7 +9,14 @@
 	"defaultCommandTimeout": 12000,
 	"retries": 2,
 	"env": {
+		"accountName": "Ackee Tester",
 		"email": "tester@automation.ackee",
-		"password": "automation.tester"
+		"password": "automation.tester",
+
+		"wrongEmail": "notRegistredUser@gmail.com",
+		"wrongPassword": "HteJTkehebdGfhRF",
+	  	"invalidEmail": "withoutATsimbol"
+		
 	}
+	
 }
